@@ -64,5 +64,5 @@ if ARGV[0].nil?
   EmojiWriter.new(nil, nil).meh
 else
   x = EmojiWriter.new(ARGV[1] || nil, ARGV[2] || nil)
-  x.render(' ' + ARGV[0])
+  x.render(ARGV[0])
 end

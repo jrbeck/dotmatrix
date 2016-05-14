@@ -1,6 +1,6 @@
 # Dot Matrix
 
-Makes it easy to do important things like produce thing like this:
+Makes it easy to do important things like producing this:
 
 ```
  ..  ..
@@ -29,53 +29,45 @@ Makes it easy to do important things like produce thing like this:
 Using a simple command line:
 
 ```bash
-ruby dotmatix.rb meh
+ruby dot_matrix.rb meh
 ```
 
-You can also specify the positive and negative space like this:
+You can also specify the positive and negative space:
 
 ```bash
-ruby dotmatix.rb meh (feelsgood) (feelsbad)
+ruby dot_matrix.rb meh (down) (up)
 ```
 
-To produce:
+Produces:
 
 ```
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsgood)(feelsbad)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsbad)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)
-(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsbad)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsgood)(feelsgood)(feelsgood)(feelsbad)(feelsbad)(feelsgood)(feelsgood)(feelsbad)
-(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)(feelsbad)
-````
+(up)(up)(up)(up)(up)(up)(up)(up)(up)
+(up)(up)(up)(up)(up)(up)(up)(up)(up)
+(up)(down)(down)(up)(up)(down)(down)(up)(up)
+(up)(down)(down)(down)(down)(down)(down)(down)(up)
+(up)(down)(down)(down)(down)(down)(down)(down)(up)
+(up)(down)(down)(up)(down)(up)(down)(down)(up)
+(up)(down)(down)(up)(up)(up)(down)(down)(up)
+(up)(up)(up)(up)(up)(up)(up)(up)(up)
+(up)(up)(up)(up)(up)(up)(up)(up)(up)
+(up)(up)(up)(up)(up)(up)(up)(up)(up)
+(up)(up)(down)(down)(down)(down)(up)(up)(up)
+(up)(down)(down)(up)(up)(down)(down)(up)(up)
+(up)(down)(down)(down)(down)(down)(down)(up)(up)
+(up)(down)(down)(up)(up)(up)(up)(up)(up)
+(up)(up)(down)(down)(down)(down)(up)(up)(up)
+(up)(up)(up)(up)(up)(up)(up)(up)(up)
+(up)(down)(down)(down)(up)(up)(up)(up)(up)
+(up)(up)(down)(down)(up)(up)(up)(up)(up)
+(up)(up)(down)(down)(up)(down)(down)(up)(up)
+(up)(up)(down)(down)(down)(up)(down)(down)(up)
+(up)(up)(down)(down)(up)(up)(down)(down)(up)
+(up)(up)(down)(down)(up)(up)(down)(down)(up)
+(up)(down)(down)(down)(up)(up)(down)(down)(up)
+(up)(up)(up)(up)(up)(up)(up)(up)(up)
+```
 
-Which is obviously something we need to do in our chat programs.
+Which is obviously something we need for our chat programs.
 
 ## Custom fonts
 
