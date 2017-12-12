@@ -15,13 +15,6 @@ class EmojiWriter
     # @font = SampleFont::FONT
   end
 
-  def meh
-    eh = @font.map do |k, v|
-      k
-    end
-    pp eh
-  end
-
   def render(string)
     string.chars.each do |char|
       puts render_character(char)
@@ -61,7 +54,6 @@ end
 
 if ARGV[0].nil?
   p 'Usage: dot_matrix text positive_space negative_space'
-  EmojiWriter.new(nil, nil).meh
 else
   x = EmojiWriter.new(ARGV[1] || nil, ARGV[2] || nil)
   x.render(ARGV[0])

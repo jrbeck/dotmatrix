@@ -74,3 +74,7 @@ Which is obviously something we need for our chat programs.
 You can use custom fonts as well. You can program them in directly or load them from a black and white PNG (see included examples.)
 
 Now get back to spamming your company chat!
+
+## Dependencies
+
+chunky_png
